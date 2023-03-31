@@ -2,15 +2,23 @@ body{
     font-family: 'Oswald', sans-serif;
     /* font-family: 'Alkatra', cursive; */
 }
-#header div{
-    display: ;
+#header{
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px -5px gray;
+    position: sticky;
+    top: 0px;
 }
 .imagine a{
-    display: inline-block;
+    color: black;
+    /* display: inline-block; */
     float: left;
-    font-size: 50px;
+    font-size: 30px;
     text-decoration: none;
-    margin: 0px 40px;
+    margin: 0px 80px;
+}
+.imagine span{
+    color: #3a86f7;
+    font-size: 40px;
 }
 ul{
     list-style: none;
@@ -18,8 +26,50 @@ ul{
     margin: 10px 20px;
 }
 li{
-    margin: 5px;
+    margin: 20px;
     font-size: 15px;
     display: inline-block;
     font-size: 20px;  
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a span{
+    color: rgba(46, 84, 255, 0.808);
+}
+.child-container{
+    float: left;
+    width: 500px;
+    border: 1px solid rgb(104, 104, 94);
+    margin-top: 120px;
+    padding: 20px 80px;
+    position: relative;
+}
+.container div img{
+    right: -282px;
+}
+.child-container h1{
+
+    font-size: 50px;
+    color: #3a86f7;
+    margin: -5px;
+}
+.child-container p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.child-container h3 a{
+    font-family: sans-serif;
+    padding: 13px 30px;
+    background-color: #3a86f7c0;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.child-container h3 a:hover{
+    top: -2px;
+    box-shadow: 0px 1px 15px #7aafff;
 }
