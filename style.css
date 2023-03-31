@@ -38,16 +38,21 @@ li a{
 li a span{
     color: rgba(46, 84, 255, 0.808);
 }
+.container{
+    position: static;
+}
 .child-container{
     float: left;
     width: 500px;
-    border: 1px solid rgb(104, 104, 94);
     margin-top: 120px;
     padding: 20px 80px;
-    position: relative;
 }
 .container div img{
-    right: -282px;
+    width: 550px;
+    height: 500px;
+    position:-webkit-sticky;
+    right: -180px;
+    margin-top: 70px;
 }
 .child-container h1{
 
@@ -72,4 +77,77 @@ li a span{
 .child-container h3 a:hover{
     top: -2px;
     box-shadow: 0px 1px 15px #7aafff;
+}
+
+
+.imagin{
+    text-align: center;
+    margin: 60px 0;
+}
+.imagin h1{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.imagin p{
+    font-size: 17px;
+    margin-top: -20px;
+    color: #5f5e5e;
+}
+.margin-head{
+    margin: 120px 47px;
+    display: flex;
+    text-align: center;
+}
+.imagin-content{
+    margin: 0 -23px 0 0;
+    margin-left: 32px;
+    margin-right: 2px;
+    padding: 21px 20px 20px 16px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgba(226, 224, 224, 0.315);
+    transition: 0.2s;
+}
+.imagin-content h4{
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+.imagin-content h5{
+    color: #5f5e5e;
+    font-size: 13px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.imagin-content p a{
+    text-decoration: none;
+    color: #4690ff;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon{
+    position: relative;
+}
+.icon i{
+    padding: 25px;
+    color: #ffffff;
+    background-color: #4a92ff;
+    border-radius: 50%;
+    margin: -70px -39px;
+    position: absolute;
+    font-size: 30px;
+}
+.imagin-content:hover{
+    margin-top: -10px;
+    background-color:#4a92ff;
+    color: white;
+}
+.imagin-content:hover h5, .imagin-content:hover p a{
+    color: white;
+}
+.imagin-content:hover i{
+    transition: 0.2s;
+}
+.imagin-content:hover i{
+    background-color: white;
+    color:#4a92ff;
 }
