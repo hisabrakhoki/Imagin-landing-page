@@ -1,0 +1,25 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Alkatra', cursive; */
+}
+#header div{
+    display: ;
+}
+.imagine a{
+    display: inline-block;
+    float: left;
+    font-size: 50px;
+    text-decoration: none;
+    margin: 0px 40px;
+}
+ul{
+    list-style: none;
+    text-align: right;
+    margin: 10px 20px;
+}
+li{
+    margin: 5px;
+    font-size: 15px;
+    display: inline-block;
+    font-size: 20px;  
+}
